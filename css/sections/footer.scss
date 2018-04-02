@@ -1,0 +1,12 @@
+
+.footer {
+	background: $black;
+	text-align: center;
+}
+.footer__text {
+	color: rgba(#fff, .5); //прозрачность 50% в scss
+	font-size: 14px;
+	width: 55%;
+	padding-top: 20px;
+	display: inline-block;
+}

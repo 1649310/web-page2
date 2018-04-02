@@ -1,0 +1,22 @@
+//adjustment vars
+$footer-height: 70px;
+$container-width: 940px;
+
+$green: #8cc34b;
+$grey: #8a8a8a;
+$black: #212121;
+$blue: #7ec8f8; 
+
+//layout
+@import "_misc/fonts";
+@import "_misc/mixins";
+@import "_misc/adjustment";
+@import "_misc/normalize";
+
+
+// styles 
+@import "sections/header";
+@import "sections/section";
+@import "sections/about";
+@import "sections/courses";
+@import "sections/footer";

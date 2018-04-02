@@ -1,0 +1,32 @@
+.about__list {
+	@extend %clearfix;
+	margin-left: -5%; //не задана конкретная ширина- 
+	//по-этому обвертка будет увелич. и убирать отступ
+}
+.about__item {
+	float: left;
+	width: 45%;
+	margin-left: 5%;
+	@extend %clearfix;
+}
+.about__item-left, .about__item-right {
+	float: left;
+}
+.about__item-left {
+	width: 30%;
+	text-align: center; //при необх. изменить ширину контейнера 
+	//чтоб содержимое умен./увел. прапорционально
+}
+.about__item-right {
+	width: 65%;
+	margin-left: 5%;
+}
+.about__title {
+	font-size: 21px;
+	color: $black;
+	margin-bottom: 10px;
+}
+.about__item-pic { //при необх. изменить ширину контейнера
+	display: inline-block; //чтоб содержимое умен./увел. прапорционально
+	max-width: 100%;
+}
